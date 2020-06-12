@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@+id/navigation4"
+    app:startDestination="@id/screen_one4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <fragment
+        android:id="@+id/screen_one4"
+        android:name="com.example.exercise.screen_one"
+        android:label="fragment_screen_one"
+        tools:layout="@layout/fragment_screen_one">
+        <action
+            android:id="@+id/action_screen_one4_pop"
+            app:popUpTo="@id/screen_one4"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_screen_one4_to_screen_two"
+            app:destination="@id/screen_two"
+            app:popUpTo="@id/screen_two"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen_two"
+        android:name="com.example.exercise.screen_two"
+        android:label="screen_two" >
+        <action
+            android:id="@+id/action_screen_two_to_screen_one4"
+            app:destination="@id/screen_one4"
+            app:popUpTo="@id/screen_one4"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_screen_two_to_screen_three"
+            app:destination="@id/screen_three"
+            app:popUpTo="@id/screen_three"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/screen_three"
+        android:name="com.example.exercise.screen_three"
+        android:label="screen_three" />
+</navigation>

@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Exercise</string>
+    <string name="image_1">image1</string>
+    <string name="text1" tools:ignore="TypographyEllipsis">
+        Neque porro quisquam est\n
+        \t\t qui dolorem ipsum quia\n
+        \t \t dolor sit amet,\n
+        \t  consectetur,adipisci\n
+        \t        velit...
+    </string>
+    <string name="text2">
+        Lorem Ipsum is simply dummy text\n
+        \t \t     of the printing a\n
+        nd typesetting industry.Lorem\n
+        \t   \t    Ipsum has been\n
+        the industry\'s standard dummy\n
+         \t \t   text ever since\n
+        the 1500s,when an unknown printer\n
+        \t  \t  took a galley of type and\n
+        \t   scrambled it to make a type\n
+        \t   \t        specimen book.
+    </string>
+
+    <string name="NEXT">next</string>
+    <string name="PREV">prev</string>
+    <string name="GETSTARTED">GET STARTED</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imaage_2">image2</string>
+</resources>

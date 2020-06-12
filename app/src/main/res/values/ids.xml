@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_screenone_to_screentwo" type="id" />
+    <item name="action_screentwo_to_screenone" type="id" />
+    <item name="action_screentwo_to_screenthree" type="id" />
+
+</resources>
